@@ -87,13 +87,12 @@
 // for(char of string){
 //     console.log(char)
 // }
-import { arr } from "./app.js"
+import { addNumber } from "./app.js"
 
-const newArr = [...arr]
+let num1 = prompt("1-sonni kiriting")*1
+let num2 = prompt("2-sonni kiriting")*1
 
-for(let item of newArr){
-    console.log(item);
-}
+console.log(addNumber(num1, num2))
 
 
 

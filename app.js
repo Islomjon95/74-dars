@@ -1,1 +1,2 @@
-export const arr = [1, 2 , 3]
+export const addNumber = (num1, num2)=>num1+num2
+
